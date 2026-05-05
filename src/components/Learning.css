@@ -1,0 +1,54 @@
+.learning {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 5%;
+  gap: 50px;
+  background-color: var(--color-bg);
+  flex-wrap: wrap;
+}
+
+.learning__video {
+  all: unset;
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 16/9;
+  border-radius: 16px;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.3s ease;
+}
+
+.learning__video:hover {
+  transform: scale(1.05);
+}
+
+.learning__description {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.learning__description__title {
+  font-size: clamp(24px, 5vw, 36px);
+  color: var(--color-text-main);
+  opacity: 0.85;
+}
+
+.learning__description__body {
+  font-size: clamp(16px, 3vw, 20px);
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 992px) {
+  .learning {
+    flex-wrap: nowrap;
+  }
+
+  .learning__description {
+    width: 50%;
+    text-align: start;
+  }
+}

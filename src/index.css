@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Cairo:wght@400;600;700&display=swap");
+
+:root {
+  --color-primary: #794834;
+  --color-primary-dark: #503221;
+  --color-accent: #956446;
+  --color-bg: #d7bdb0;
+
+  --color-text-main: #2b1a12;
+  --color-text-muted: #6e4b3a;
+  --color-text-inverse: #ffffff;
+
+  --color-surface: #f3e7e1;
+  --color-card: #ffffff;
+  --color-border: #c9a999;
+
+  --btn-primary-bg: var(--color-primary);
+  --btn-primary-hover: var(--color-accent);
+  --btn-primary-text: #ffffff;
+
+  --shadow-soft: 0 4px 12px rgba(80, 50, 33, 0.15);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+
+html[dir="rtl"] body {
+  font-family: "Cairo", sans-serif;
+}
+
+body,
+button {
+  -webkit-font-smoothing: antialiased;
+}
+
+html[dir="rtl"] {
+  font-size: 105%;
+}
+
+html[dir="rtl"] body {
+  letter-spacing: 0.2px;
+}

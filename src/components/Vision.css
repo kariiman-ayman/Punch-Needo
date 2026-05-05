@@ -1,0 +1,26 @@
+.vision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 5%;
+  gap: 30px;
+  background-color: var(--color-bg);
+  text-align: center;
+}
+
+.vision__title {
+  font-size: clamp(28px, 6vw, 48px);
+  font-weight: bold;
+  color: var(--color-text-main);
+  opacity: 0.8;
+}
+
+.vision__description {
+  font-size: clamp(16px, 3vw, 20px);
+  font-weight: bold;
+  max-width: 700px;
+  color: var(--color-text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

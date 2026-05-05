@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "slogan": "Craft Calm. Create Beauty.",
+    "button": "Explore Our Creations"
+  },
+  "learning": {
+    "title": "Start Your First Cozy Design Today!",
+    "body": "Learn how to create a simple tree branch with textured leaves in this beginner-friendly punch needle tutorial. Follow along step by step and enjoy making a calm, cozy nature-inspired piece."
+  },
+  "products": {
+    "title": "Exclusive Handmade Pieces",
+    "body": "Individually crafted to stand apart, our products embody rarity, elegance, and a commitment to perfection—created for those who seek the extraordinary."
+  },
+  "vision": {
+    "title": "Made by Hand, Made with Heart",
+    "intro": "Every piece from Punch Needo is crafted with care and intention. We believe in the beauty of slow living and the joy that comes from creating something meaningful with your own hands.",
+    "outro": "Our punch needle creations bring warmth, texture, and artistry into your home."
+  },
+  "footer": {
+    "heading": "Follow Our Journey",
+    "desc": "Watch tutorials and get inspired on YouTube & TikTok",
+    "youtube": "Subscribe on YouTube",
+    "tiktok": "Follow us on TikTok",
+    "slogan": "Handcrafted punch needle art",
+    "copyright": "© 2026 Punch Needo. All rights reserved."
+  }
+}
